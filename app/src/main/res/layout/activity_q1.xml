@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.win.mind.Q1Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:id="@+id/Q1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="1.	當你和朋友一起用餐時，在選擇用餐或是吃什麼時，你常是？ "
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <RadioButton
+            android:id="@+id/A1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="決定者：意見不同時，通常是決定者。"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="115dp" />
+
+        <RadioButton
+            android:id="@+id/C1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="附和者：隨便，沒意見。"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="223dp" />
+
+        <RadioButton
+            android:id="@+id/D1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="意見提供者：常去否定別人的提議，自己卻又沒意見，也不做任何決定。"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="287dp" />
+
+        <RadioButton
+            android:id="@+id/B1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="氣氛製造者：吃什麼，很能帶動情緒氣氛。"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="166dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/nextPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Next"
+                tools:layout_editor_absoluteX="278dp"
+                tools:layout_editor_absoluteY="445dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
